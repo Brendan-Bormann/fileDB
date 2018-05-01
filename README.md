@@ -2,16 +2,26 @@
 A database query system using node's fs package. Creates and reads files as a database!
 
 **Create a Database**
-`fileDB('myDB').createDB;`
+```javascript
+fileDB('myDB').createDB;
+```
 
 **Create a Collection**
-`fileDB('myDB').mkCol('myCol');`
+```javascript
+fileDB('myDB').mkCol('myCol');
+```
 
 **Veiw a Collection**
-`fileDB('myDb').logCol('myCol');`
+```javascript
+fileDB('myDb').logCol('myCol');
+```
 
 **Add a document to collection**
-`fileDB('myDB').addDoc('myCol', 'MyDocumentName');`
+```javascript
+fileDB('myDB').addDoc('myCol', 'MyDocumentName');
+```
 
 **Find a Document** *Currently not implemented*
-`file('myDB').findDoc('myCol', 'SearchTerm');`
+```javascript
+file('myDB').findDoc('myCol', 'SearchTerm');
+```
