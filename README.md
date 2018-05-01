@@ -13,5 +13,5 @@ A database query system using node's fs package. Creates and reads files as a da
 **Add a document to collection**
 `fileDB('myDB').addDoc('myCol', 'MyDocumentName');`
 
-**Find a Document** *Currently no implemented*
+**Find a Document** *Currently not implemented*
 `file('myDB').findDoc('myCol', 'SearchTerm');`
